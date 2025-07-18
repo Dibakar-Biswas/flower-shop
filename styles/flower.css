@@ -1,0 +1,247 @@
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header section styles */
+.flower-headings{
+    height: 0 auto;
+    width: 1920px;
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+}
+.heading-description{
+    width: 708px;
+    height: 506px;
+    margin-left: 240px;
+    margin-top: 197px;
+}
+.lets-make{
+    color: #272727;
+    font-size: 5rem;
+    font-weight: 800;
+}
+.shared-letter{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn-primary{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #E55473;
+    border-radius: 8px;
+    padding: 20px 43px;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: red;
+}
+.header-flower{
+    height: 800px;
+    width: 635px;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+
+/* Featured flower section styles */
+.featured-flower{
+    width: 594px;
+    height: 132px;
+    text-align: center;
+    margin: 178px 663px 48px 663px;
+}
+.feature-head{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 24px;
+}
+
+/* Three flower section styles */
+.three-flower{
+    width: 1440px;
+    height: 605px;
+    margin: 0px 240px 128px 240px;
+    display: flex;
+    text-align: center;
+    gap: 24px;
+}
+.flower-color{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #272727;
+}
+.pink-flower{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding-bottom: 1px;
+    border-radius: 300px 300px 0px 0px;
+}
+.pink-box{
+    width: 310px;
+    height: 428px;
+    margin: 110px 78px 0px 76px;
+}
+.mixed-flower{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.mixed-box{
+    height: 370px;
+    width: 370px;
+    margin: 117px 47px 51px 47px;
+}
+.yellow-flower{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.yellow-box{
+    width: 314px;
+    height: 471px;
+    margin: 67px 75px 0px 75px;
+}
+
+/* Icon section styles */
+.icon{
+    display: flex;
+    width: 1440px;
+    height: 320px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 0px 240px 128px 240px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+/* Hot Deal section styles */
+.hot-deal{
+    display: flex;
+    width: 1922px;
+    height: 620px;
+    background-color: rgba(229, 84, 115, 0.05);
+    border: 8px;
+    margin: 0px 0px 128px 0px;
+    gap: 180px;
+}
+.deal{
+    height: 228px;
+    width: 594px;
+    border-radius: 8px;
+    margin-top: 230px;
+    margin-left: 395px;
+    text-align: center;
+}
+#sale{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #272727;
+}
+#off{
+    color: #E55473;
+}
+.red-rose{
+    height: 420px;
+    width: 318px;
+    margin-top: 100px;
+    margin-right: 429px;
+}
+
+/* Instagram section styles */
+.instagram{
+    height: 132px;
+    width: 594px;
+    margin: 0px 663px 48px 663px;
+    text-align: center;
+}
+#insta-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 24px;
+}
+
+/* Cutie flower section styles */
+.cutie-flower{
+    display: flex;
+    width: 342px;
+    height: 396px;
+    margin: 0px 240px 128px 240px;
+    gap: 24px;
+}
+
+
+/* Latest deals section styles */
+.latest-deals{
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
+    height: 449px;
+    width: 1440px;
+    border-radius: 8px;
+    margin: 0px 240px 128px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box-deals{
+    display: flex;
+    flex-direction: column;
+}
+#get{
+    font-size: 2.5rem;
+    font-weight: 800;
+    columns: #272727;
+    margin-bottom: 4px;
+}
+.button-s{
+    height: 64px;
+    width: 666px;
+    border-radius: 8px;
+}
+
+/* Footer section styles */
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #111010;
+    width: 1922px;
+    height: 449px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+#red{
+    color: #E55473;
+}
+.page{
+    color: white;
+}
+#all-right{
+    color: whitesmoke;
+}
+
+/* Media Query for Small Devices */
+@media screen and (max-width: 1076px) {
+    .flower-headings{
+        flex-direction: column;
+    }
+    .heading-description{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}
