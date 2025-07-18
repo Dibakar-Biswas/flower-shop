@@ -233,15 +233,3 @@
 #all-right{
     color: whitesmoke;
 }
-
-/* Media Query for Small Devices */
-@media screen and (max-width: 1076px) {
-    .flower-headings{
-        flex-direction: column;
-    }
-    .heading-description{
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-    }
-}
