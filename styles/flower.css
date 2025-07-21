@@ -237,8 +237,28 @@
 
 /* Responsive for small device */
 @media screen and (max-width:576px) {
-    .flower-headings, 
-    .featured-flower, 
+    .flower-headings {
+        background-position: 100%;
+        flex-direction: column;
+        max-width: 830px;
+        /* margin: 0 30px; */
+        padding: 40px;
+        object-fit: contain;
+    }
+    .featured-flower > h4{
+        width: 500px;
+        margin-left: 170px;
+    }
+    .featured-flower > p{
+        width: 600px;
+        margin-left: 120px;
+    }
+    .pink-flower, .mixed-flower{
+        margin-bottom: 60px;
+    }
+    .mixed-flower > div{
+        margin-bottom: 75px;
+    }
     .three-flower
     {
         flex-direction: column;
@@ -247,7 +267,8 @@
         /* padding: 40px; */
         object-fit: contain;
     }
-    .icon, .latest-deals{
+    .icon {
+        height: auto;
         flex-direction: column;
         margin-top: 1350px;
         margin-left: 30px;
@@ -255,6 +276,7 @@
         max-width: 800px;
     }
     .hot-deal{
+        height: auto;
         flex-direction: column;
         max-width: 800px;
         align-items: center;
@@ -264,23 +286,38 @@
         margin-right: 0px;
     }
     .instagram{
-        margin-left: 100px;
+        margin-left: 150px;
         margin-right: 0px;
-        margin-top: 230px;
+        margin-top: 100px;
     }
     .cutie-flower{
         flex-direction: column;
-        align-content: center;
+        align-items: center;
     }
-    
-    .heading-description, .featured-flower, .header-flower, .deal{
+    .cutie-flower > div > img{
+        margin-left: 80px;
+        width: 750px;
+        height: 800px;
+    }
+    .latest-deals{
+        height: 100%;
+        /* flex-direction: column; */
+        margin-top: 3000px;
+        margin-left: 76px;
+        margin-right: 30px;
+        width: 750px;
+    }
+    .heading-description,
+    .header-flower,
+    .featured-flower, .deal{
         margin-left: 20px;
         margin-top: 25px;
     }
-    .three-flower, .featured-flower{
+    .three-flower{
         align-items: center;
     }
     .footer{
-        max-width: 800px;
+        width: 900px;
+        height: 450px;
     }
 }
